@@ -1,0 +1,3 @@
+bazel build //...
+bazel-bin/src/main/java/com/example/cmdline/runner
+bazel build //:ProjectRunner
