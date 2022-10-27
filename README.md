@@ -1,3 +1,8 @@
-bazel build //...
-bazel-bin/src/main/java/com/example/cmdline/runner
-bazel build //:ProjectRunner
+Overview
+Bazel 的基本使用.
+
+Build
+bazel build //:app
+
+Run
+bazel-bin/app
